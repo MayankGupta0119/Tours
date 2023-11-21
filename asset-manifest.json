@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Tours/static/css/main.e5438591.css",
+    "main.js": "/Tours/static/js/main.3f2a032c.js",
+    "static/media/output-onlinepngtools.png": "/Tours/static/media/output-onlinepngtools.3f95717e6aaf62d23039.png",
+    "static/media/logo.svg": "/Tours/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/Tours/index.html",
+    "main.e5438591.css.map": "/Tours/static/css/main.e5438591.css.map",
+    "main.3f2a032c.js.map": "/Tours/static/js/main.3f2a032c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e5438591.css",
+    "static/js/main.3f2a032c.js"
+  ]
+}
