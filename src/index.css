@@ -1,13 +1,136 @@
-body {
+*{
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Nunito', sans-serif;
 }
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.app{
+  background-image: url('./images/output-onlinepngtools.png');
+  object-fit: cover;
+  background-size: cover;
+  background-position: center;
+}
+.container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.title{
+  font-size: 3rem;
+  margin: 6vh;
+  border: 7px dashed darkblue;
+  border-radius: 20px;
+  padding: 1vh 5vw;
+  backdrop-filter: blur(16px) saturate(180%);
+    -webkit-backdrop-filter: blur(16px) saturate(180%);
+    background-color: rgba(255, 255, 255, 0.4);
+    border-radius: 12px;
+    /* border: 1px solid rgba(209, 213, 219, 0.3); */
+}
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cards{
+  max-width: 85rem;
+  margin: 0 auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  overflow-y:hidden;
+  flex-wrap: wrap;
+  gap: 3rem;
+}
+.card{
+  background-color: white;
+  width: 20rem;
+  height: max-content;
+  margin: 1rem;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 1rem;
+  border-radius: 10px;
+  box-shadow: black 0px 3px 10px;
+}
+.image{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  aspect-ratio: 1/1; 
+  border-radius: 7px;
+  /* to make it as a square, i.e. making its height and width equal */
+}
+.tour_info{
+  margin: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  gap: 1rem;
+}
+.tour-details{
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.readmore{
+  color: green;
+  cursor: pointer;
+}
+.tour_price{
+  color: #1faa59;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.tour_name{
+  font-weight: 600;
+}
+.description{
+  line-height: 1.2rem;
+  vertical-align: middle;
+}
+.btnred{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+  padding: 1rem 5.4rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: bold;
+  background-color: #b4161b21;
+}
+.btnred:hover{
+  background-color: red;
+  color: white;
+  transition: all 0.3s;
+  border: 2px dashed black;
+}
+.refresh{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.btn_white{
+  padding: 1rem 4rem;
+  font-weight: 400;
+  margin-top: 1.7rem;
+  border: 1px solid white;
+  cursor: pointer;
+  border-radius: 0.6rem;
+}
+.btn_white:hover{
+  background-color: white;
+  color: black;
+  font-weight: bold;
+  border: 7px dashed darkblue;
+  transform: all 0.4s;
 }
